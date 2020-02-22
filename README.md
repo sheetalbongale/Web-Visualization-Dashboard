@@ -1,5 +1,7 @@
 # Unit 12 | Assignment - Web Visualization Dashboard (Latitude)
 
+Click [here](https://sheetalbongale.github.io/Web-Visualization-Dashboard/) to check the Web Dashboard.
+
 ### Objective
 
 Creating a visualization dashboard website using visualizations rendered from the data analysis done using simple Python library](https://pypi.python.org/pypi/citipy) and the [OpenWeatherMap API](https://openweathermap.org/api).
