@@ -6,12 +6,9 @@ Click [here](https://sheetalbongale.github.io/Web-Visualization-Dashboard/) to c
 
 Creating a visualization dashboard website using visualizations rendered from the data analysis done using simple Python library](https://pypi.python.org/pypi/citipy) and the [OpenWeatherMap API](https://openweathermap.org/api).
 
-Data Analysis Notebook : 
-we'll be plotting [weather data](Resources/cities.csv).
+Data Analysis Notebook : Click [here](https://github.com/sheetalbongale/Python-API-Challenge) to find the script to perform API call, data analysis done using Pandas and visualization using Matplotlib.
 
 ### Website Requirements
-
-For reference, see the ["Screenshots" section](#screenshots) below.
 
 The website must consist of 7 pages total, including:
 
