@@ -34,7 +34,7 @@
             </ul>
             <ul class="nav navbar-nav navbar-right ">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/sheetalbongale/Python-API-Challenge"> <i class="fa fa-github" aria-hidden="true"></i>&nbsp; Data Analysis</a>
+                    <a class="navbar-brand" href="https://github.com/sheetalbongale/Python-API-Challenge"> <i class="fa fa-github" aria-hidden="true"></i>&nbsp; Data Analysis</a>
                 </li>
             </ul>
         </div>
@@ -43,11 +43,22 @@
     <div class="jumbotron">
         <div class="container-fluid">
             <div class="row">
-                <div class="box" style="padding-left: 30px; padding-right: 30px;">
-                    <h3 class="title">Humidity</h3>
-                    <p>Humidity does not show a strong correlation to latitude. The visualization shows a great variety of humidity percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive pattern between humidity and latitude.</p> 
-                    <p>there is a larger cluster of cities in the northern hemisphere with high humidity (above 80% humidity).</p>
-                    <img src="static/plots/lat_vs_humidity.png" alt="Humidity Graph" style="padding-bottom: 30px; padding-top: 30px;">
+                <div class="col-lg-5 col-md-12">
+                    <!-- Left box  -->
+                    <div class="box">
+                        <h2 class="title">Latitude vs. Humidity </h2>
+                        <h5>Observation:</h5>
+                        <p>Humidity does not show a strong correlation to latitude. The visualization shows a great variety of humidity percentages at different latitudes. Therefore, we cannot conclude that there is a conclusive pattern between humidity and latitude.</p> 
+                        <p>In fast, there is a larger cluster of cities in the northern hemisphere with high humidity (above 80% humidity).</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <!-- Right Box -->
+                    <div class="box">
+                        <div class="container">
+                            <img src="static/plots/lat_vs_humidity.png" alt="Humidity Graph" class="visualization rounded float-left" style="width:100%;">                                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -107,7 +118,7 @@
 <!-- Footer Section -->
 <footer class="footer navbar-expand-lg navbar-dark bg-primary text-center text-white">
     <div class="footer-copyright">
-        <div class="top"> <span>- Web Design &amp; Data Analysis and Visualization by -</span>
+        <div class="top"> <span>Web Design &amp; Data Analysis by</span>
         </div>
         <div class="bottom"> <span>Sheetal Bongale © 2020</span>
         </div>

@@ -35,31 +35,43 @@
             </ul>
             <ul class="nav navbar-nav navbar-right ">
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/sheetalbongale/Python-API-Challenge"> <i class="fa fa-github" aria-hidden="true"></i>&nbsp; Data Analysis</a>
+                    <a class="navbar-brand" href="https://github.com/sheetalbongale/Python-API-Challenge"> <i class="fa fa-github" aria-hidden="true"></i>&nbsp; Data Analysis</a>
                 </li>
             </ul>
         </div>
     </nav>
+   
     <!-- Content Section -->
     <div class="jumbotron">
         <div class="container-fluid">
             <div class="row">
-                <div class="box" style="padding-left: 30px; padding-right: 30px;">
-                    <h3 class="title">Max Temperature</h3>
-                    <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).</p>
-                    <p>More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.></p>
-                    <img src="static/plots/lat_vs_maxtemp.png" alt="Max Temperature Graph" style="padding-bottom: 30px; padding-top: 30px;">
+                <div class="col-lg-5 col-md-12">
+                    <!-- Left box  -->
+                    <div class="box">
+                        <h2 class="title">Latitude vs. Max Temperature </h2>
+                        <h5>Observation:</h5>
+                            <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude).</p>
+                            <p>More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of the year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <!-- Right Box -->
+                    <div class="box">
+                        <div class="container">
+                            <img src="static/plots/lat_vs_maxtemp.png" class="visualization rounded float-left" alt="Max Temperature Graph" style="width:100%;">                                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-   
+
     <!-- Card deck -->
     <h4 class="title text-center">Visualizations</h4>
     <div class="container-fluid" style="padding: 30px;">
         <div class="row">
             <div class="card-deck">
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
                         <a href="max_temperature.html">
                             <img class="card-img-top" src="static/plots/lat_vs_maxtemp.png" alt="Max Temp Graph" style="width:100%">
@@ -69,7 +81,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
                         <a href="humidity.html">
                             <img class="card-img-top" src="static/plots/lat_vs_humidity.png" alt="Humidity Graph" style="width:100%">
@@ -79,7 +91,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
                         <a href="cloudiness.html">
                             <img class="card-img-top" src="static/plots/lat_vs_cloudiness.png" alt="Cloudiness Graph" style="width:100%">
@@ -89,7 +101,7 @@
                             </div>
                     </div>
                 </div>
-                <div class="col-md">
+                <div class="col-lg">
                     <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
                         <a href="wind_speed.html">
                             <img class="card-img-top" src="static/plots/lat_vs_windspeed.png" alt="Wind Speed Graph" style="width:100%">
@@ -108,7 +120,7 @@
 <!-- Footer Section -->
 <footer class="footer navbar-expand-lg navbar-dark bg-primary text-center text-white">
     <div class="footer-copyright">
-        <div class="top"> <span>- Web Design &amp; Data Analysis and Visualization by -</span>
+        <div class="top"> <span>Web Design &amp; Data Analysis by</span>
         </div>
         <div class="bottom"> <span>Sheetal Bongale © 2020</span>
         </div>
