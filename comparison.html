@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/solar/bootstrap.min.css" rel="stylesheet" integrity="sha384-Ya0fS7U2c07GI3XufLEwSQlqhpN0ri7w/ujyveyqoxTJ2rFHJcT6SUhwhL7GM4h9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <!--CSS Link-->
-    <!--link rel="stylesheet" href="bootstrap.css"-->
+    <!--link rel="stylesheet" href="css/stylesheet.css"-->
 </head>
 
 <body>
@@ -40,41 +40,47 @@
         </div>
     </nav>
     <!-- Content Section -->
+    
     <div class="jumbotron">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Comparison: Latitude vs X</h2>
-                    <p>Click any plot to get an in-depth analysis.</p>
+                    <p>Click any plot to get an in-depth analysis or hover to see zoomed image.</p>
                 </div>
             </div>
 
             <div class="container">
+                <style>
+                    .zoom:hover {
+                        transform: scale(1.25);
+                    }
+                </style>
                 <div class="row">
-                    <div class="col-lg-6" style="padding: 30px;">
+                    <div class="col-lg-6" style="padding: 40px;">
                         <div class="title" style="padding-bottom: 10px;">vs. Max Temperature</div>
                         <a href="max_temperature.html">
-                            <img src="static/plots/lat_vs_maxtemp.png" class="img-fluid">
+                            <img src="static/plots/lat_vs_maxtemp.png" class="img-fluid zoom">
                         </a>
                     </div>
-                    <div class="col-lg-6" style="padding: 30px;">
+                    <div class="col-lg-6" style="padding: 40px;">
                         <div class="title" style="padding-bottom: 10px;">vs. Humidity</div>
                         <a href="humidity.html">
-                            <img src="static/plots/lat_vs_humidity.png" class="img-fluid">
+                            <img src="static/plots/lat_vs_humidity.png" class="img-fluid zoom">
                         </a>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-6" style="padding: 30px;">
+                    <div class="col-lg-6" style="padding: 40px;">
                         <div class="title" style="padding-bottom: 10px;">vs. Cloudiness</div>
                         <a href="cloudiness.html">
-                            <img src="static/plots/lat_vs_cloudiness.png" class="img-fluid">
+                            <img src="static/plots/lat_vs_cloudiness.png" class="img-fluid zoom">
                         </a>
                     </div>
-                    <div class="col-lg-6" style="padding: 30px;">
+                    <div class="col-lg-6" style="padding: 40px;">
                         <div class="title" style="padding-bottom: 10px;">vs. Wind Speed</div>
                         <a href="wind_speed.html">
-                            <img src="static/plots/lat_vs_windspeed.png" class="img-fluid">
+                            <img src="static/plots/lat_vs_windspeed.png" class="img-fluid zoom">
                         </a>
                     </div>
                 </div>
